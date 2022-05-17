@@ -25,13 +25,13 @@
 
 -   Java Collections is a good example of application of inheritance.
 
-![image](https://raw.githubusercontent.com/axitchandora/Personal-Stuff/main/Images/ME_INHERITANCE_JAVA_MODULE_BYTE_image_20.png?token=GHSAT0AAAAAABTQZSL6LIHYXIYIDE2RR4KEYUD6RHA)
+![image](https://raw.githubusercontent.com/axitchandora/Personal-Stuff/main/Images/ME_INHERITANCE_JAVA_MODULE_BYTE_image_20.png)
 
 -   Java Exceptions is among one of the notable Class hierarchies displaying the effective use of inheritance.
 
   
 
-![image](https://raw.githubusercontent.com/axitchandora/Personal-Stuff/main/Images/ME_INHERITANCE_JAVA_MODULE_BYTE_image_21.png?token=GHSAT0AAAAAABTQZSL6GLV6ENZV64TNT7PKYUD6RMQ)
+![image](https://raw.githubusercontent.com/axitchandora/Personal-Stuff/main/Images/ME_INHERITANCE_JAVA_MODULE_BYTE_image_21.png)
 
   
 
