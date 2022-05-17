@@ -5,6 +5,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Base64;
 
+import com.crio.messaging.message.ImageMessage;
+import com.crio.messaging.message.TextMessage;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,14 +16,14 @@ public class Main {
 
 
         // Ankur sends a text message to Abhinaya
-		Message message1 = new Message();
+		TextMessage message1 = new TextMessage();
         message1.setSenderId("SENDER_Ankur");
         message1.setReceiverId("RECEIVER_Abhinaya");
         message1.setTextMessageContent("Hello, Have you checked out https://blog.crio.do?");
         AndroidHandler.sendText(message1);
 
         // Aman sends a message to Abhiskek
-        Message message2 = new Message();
+        ImageMessage message2 = new ImageMessage();
         message2.setSenderId("SENDER_Aman");
         message2.setReceiverId("RECEIVER_Abhiskek");
         

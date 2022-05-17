@@ -1,5 +1,8 @@
 package com.crio.messaging;
 
+import com.crio.messaging.message.ImageMessage;
+import com.crio.messaging.message.TextMessage;
+import com.crio.messaging.message.Message;
 
 // This class contains a list of methods that will be called from
 // the Android app through a REST API server.
@@ -10,7 +13,7 @@ package com.crio.messaging;
 
 public class AndroidHandler {
 
-    public static void sendText(Message message) {
+    public static void sendText(TextMessage message) {
         // 1. Discard empty strings.
         if (message.getTextMessageContent().isEmpty()){
             try {
@@ -29,7 +32,7 @@ public class AndroidHandler {
 
     }
 
-    public static void sendImage(Message message) {
+    public static void sendImage(ImageMessage message) {
         // 1. Discard empty strings.
         if (message.getImageMessageContent().isEmpty()){
             try {
@@ -53,7 +56,7 @@ public class AndroidHandler {
         System.out.println(message + " stored successfully.");
     }
 
-    private static void deliverText(Message message) {
+    private static void deliverText(TextMessage message) {
         // Logic to actually send the message to the user. It may happen through some queueing mechanism.
         // Out of syllabus for this exercise :')
 
